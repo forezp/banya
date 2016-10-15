@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+  <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_menu_home"
+        android:icon="@drawable/ic_extension_white_24dp"
+        android:title="主页"/>
+
+    <item android:id="@+id/nav_menu_recommend"
+      android:icon="@drawable/ic_explore_white_24dp"
+      android:title="推荐"
+      ></item>
+
+    <item android:id="@+id/nav_menu_theme"
+      android:icon="@drawable/ic_build_white_24dp"
+      android:title="主题"
+      ></item>
+
+
+    <item
+        android:id="@+id/nav_menu_feedback"
+        android:icon="@drawable/ic_more_horiz_white_24dp"
+        android:title="反馈"/>
+    <item
+        android:id="@+id/nav_menu_setting"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="设置"/>
+
+    <item
+
+        android:id="@+id/nav_menu_categories"
+        android:icon="@drawable/ic_star_white_24dp"
+        android:title="关于"/>
+
+  </group>
+</menu>

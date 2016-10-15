@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/bg_light_gray"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:id="@+id/iv_music"
+                    android:scaleType="centerCrop"
+                    android:layout_centerInParent="true"
+                    android:layout_width="120dp"
+                    android:layout_height="168dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tv_book_name"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tv_book_grade"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/tv_book_art"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/text_gray_6"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tv_book_publishtime"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/text_gray_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tv_book_publish_address"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/text_gray_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tv_book_grade_num"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/text_gray_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:background="@drawable/button_yello"
+                    android:padding="10dp"
+                    android:text="想看"
+                    android:textSize="14sp"
+                    android:textColor="@color/red_base"
+                    android:id="@+id/tv_want_read"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/button_yello"
+                    android:padding="10dp"
+                    android:text="查看详情"
+                    android:textSize="14sp"
+                    android:textColor="@color/red_base"
+                    android:id="@+id/tv_more_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="13sp"
+                    android:text="简介"
+                    android:textColor="@color/text_gray_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="14sp"
+                    android:textColor="@color/text_gray_28"
+                    android:id="@+id/tv_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="13sp"
+                        android:text="作者简介"
+                        android:textColor="@color/text_gray_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textSize="14sp"
+                        android:textColor="@color/text_gray_28"
+                        android:id="@+id/tv_author_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="13sp"
+                    android:text="目录"
+                    android:textColor="@color/text_gray_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="14sp"
+                    android:textColor="@color/text_gray_28"
+                    android:id="@+id/tv_chapters"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

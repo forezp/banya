@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+  <string-array name="tab_film">
+    <item>热映榜</item>
+    <!--
+    <item>北美榜</item>
+    -->
+    <item>Top250</item>
+  </string-array>
+
+
+
+  <string-array name="image_url">
+    <item>http://pic1.nipic.com/2008-10-30/200810309416546_2.jpg</item>
+    <item>http://pic24.nipic.com/20121003/10754047_140022530392_2.jpg</item>
+    <item>http://pic1.nipic.com/2008-11-13/2008111384358912_2.jpg</item>
+    <item>http://pic1.nipic.com/2008-09-02/2008922222931_2.jpg</item>
+    <item>http://pic24.nipic.com/20120921/10997347_222143448180_2.jpg</item>
+    <item>http://pic24.nipic.com/20121009/4744012_103328385000_2.jpg</item>
+    <item>http://img6.faloo.com/Picture/0x0/0/747/747468.jpg</item>
+    <item>http://img.tuku.cn/file_big/201504/024448d7ae994d4d9273ea5f3c199a5a.jpg</item>
+    <item>http://www.sucaitianxia.com/Photo/pic/201001/gefnegs37.jpg</item>
+    <item>http://image.tianjimedia.com/uploadImages/2011/020/Y0AZZ0WT32BS.jpg</item>
+    <item>http://tupian.enterdesk.com/2013/mxy/12/16/4/4.jpg</item>
+    <item>http://d.hiphotos.baidu.com/zhidao/pic/item/d1a20cf431adcbef85a0349fadaf2edda2cc9f97.jpg</item>
+  </string-array>
+
+</resources>
+

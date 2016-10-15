@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">瓣呀</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+
+     <string name="author_desc">很高兴你能够看到这里!~\n\n
+        文艺闷骚的码农一枚，爱好健身、音乐、看电影、读书、写作、写技术博文，努力成为一名终身学习者。\n\n
+        毕业于武汉理工大学\n
+        三年的java，android 开发经验\n
+        坐标: 深圳 、武汉\n
+        期望和更多的技术达人交朋友\n\n
+        如果你觉得此项目还行，star下吧，对码农而言，star是我们做开源的一部分动力。
+    </string>
+
+    <string name="email">*Email:miles02@163.com</string>
+    <string name="github">*Github:https://github.com/forezp</string>
+    <string name="blog">*Blog:http://blog.csdn.net/forezp</string>
+    <string name="about">
+        ＊项目的所以数据都来自豆瓣APIV2.0 ,一切数据解释权归豆瓣所有。\n\n
+        *项目整体采用MVP+RxJava+Retrofit框架。\n\n
+        *整体采用materailDesign界面风格，本人是网易云音乐的粉丝，所以模仿了网易云音乐的主体界面。\n\n
+        *并对retrofit进行了缓存配置，很遗憾，豆瓣API在服务端并没有对返回数据进行Cache-Control 设置。\n\n
+        *后续会采用本地数据库对数据进行缓存，初步定为使用realm。\n\n
+         *尊重劳动成果，若转载请注明来源https://github.com/forezp。\n\n
+        *star我一下吧，拜托了。\n\n
+    </string>
+
+    <string name="hlym">黄粱一梦二十年 \n 依旧是不懂爱也不懂情\n写歌的人假正经阿\n听歌的人最无情\n 于是歌手从吉林到北京\n从台北到上海\n
+伦敦到马德里\n
+去寻找他梦中的青鸟\n
+(郎对花姐对花)是一段不知道怎么开始\n
+也不知道要怎么样结束的旅程(一对对到人间)\n
+他发觉..这世间..有点假(这个人间有点假)\n
+可我莫名的爱上了她..(可我莫名爱上了她)\n
+莫非再过二十年\n
+依旧是不懂爱也不懂情\n
+写歌的人断了魂阿\n
+听歌的人最无情</string>
+</resources>

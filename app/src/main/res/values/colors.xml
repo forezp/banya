@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="main_blue_light">#3F56B5</color>
+    <color name="main_blue_dark">#30459E</color>
+    <color name="main_white">#FFFFFF</color>
+    <color name="main_black">#000000</color>
+    <color name="main_black_grey">#6D6D6D</color>
+    <color name="fab_red">#ff0000</color>
+
+    <color name="red_base">#FB5B81</color>
+    <color name="btn_answer_pressed">#4ebcd3</color>
+    <color name="btn_answer_normal">#2dafa3</color>
+
+
+    <color name="theme_red_base">#FB5B81</color>
+    <color name="theme_blue">#0077D9</color>
+    <color name="theme_blue_light">#03A9F4</color>
+    <color name="theme_balck">#000000</color>
+    <color name="theme_teal">#009688</color>
+    <color name="theme_brown">#795548</color>
+    <color name="theme_green">#4CAF50</color>
+    <color name="theme_red">#FF5252</color>
+
+
+    <color name="white2">#fafafa</color>
+    <color name="white_dark">#f3f3f3</color>
+    <color name="gray_light">#cccccc</color>
+    <color name="gray">#777</color>
+    <color name="gray_dark">#383838</color>
+    <color name="green_light">#8e9ea4</color>
+    <color name="green">#34515c</color>
+    <color name="green_dark">#1e3e4a</color>
+    <color name="night_mask">#90000000</color>
+    <color name="gray_darker">#2b2b2b</color>
+    <color name="gray_alpha_light">#90999999</color>
+
+    <color name="black">#000000</color>
+    <!-- 黄色 -->
+    <color name="yellow">#D7CF50</color>
+    <!-- 悄悄捐后面字体的提醒 -->
+    <color name="text_gray_28">#282828</color>
+    <color name="text_gray_9">#999999</color>
+    <color name="text_gray_6">#666666</color>
+    <color name="text_gray_5">#555555</color>
+    <color name="text_gray_4">#444444</color>
+    <color name="divider_gray_line">#cccccc</color>
+    <color name="address_line">#b2b2b2</color>
+    <color name="divider_gray_bar">#f2f2f2</color>
+
+    <color name="bg_light_gray">#F2F2F2</color>
+    <color name="white">#ffffff</color>
+
+    <color name="black_90">#dd000000</color>
+
+    <color name="trangery">#512e2e2e</color>
+
+
+</resources>

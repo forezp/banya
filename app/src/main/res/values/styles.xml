@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="AppTheme" parent="MyThemeBlue"></style>
+
+    <!-- 蓝色为主色调 -->
+    <style name="MyThemeBlue" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--选中状态icon的颜色和字体颜色-->
+        <item name="colorPrimary">@color/red_base</item>
+        <item name="colorPrimaryDark">@color/red_base</item>
+        <item name="colorAccent">@color/red_base</item>
+        <!--正常状态下字体颜色和icon颜色-->
+        <item name="android:textColorPrimary">@color/white</item>
+
+    </style>
+
+    <!-- expandedTitleTextAppearance Title -->
+    <style name="expandedTitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

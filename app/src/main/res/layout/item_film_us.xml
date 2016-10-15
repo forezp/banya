@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/ll_item_view"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/bg_light_gray"
+        android:layout_height="wrap_content">
+        <View
+            android:background="@color/divider_gray_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.6dp"/>
+        <TextView
+            android:id="@+id/tv_rank"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textSize="14sp"
+            android:text="01"
+            android:textColor="@color/text_gray_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="@color/divider_gray_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.6dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_film"
+            android:scaleType="centerCrop"
+            android:layout_width="60dp"
+            android:layout_height="84dp" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv_film"
+            android:id="@+id/tv_film"
+            android:textSize="15sp"
+            android:text="hhha"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:layout_below="@+id/tv_film"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv_film"
+            android:id="@+id/tv_film_english"
+            android:textSize="13sp"
+            android:text="hhha"
+            android:textColor="@color/text_gray_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:layout_below="@+id/tv_film_english"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv_film"
+            android:id="@+id/tv_film_grade"
+            android:textSize="13sp"
+            android:text="9.6"
+            android:textColor="@color/red_base"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/left_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

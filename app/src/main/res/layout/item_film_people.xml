@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv_avatar"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="14sp"
+                android:textColor="@color/text_gray_4"
+                android:id="@+id/tv_name_chinease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="13sp"
+                android:textColor="@color/text_gray_6"
+                android:id="@+id/tv_name_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+</LinearLayout>

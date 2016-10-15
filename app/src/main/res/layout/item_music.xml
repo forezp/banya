@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/ll_item_view"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_music"
+            android:scaleType="centerCrop"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+        <TextView
+            android:text="yinwei"
+            android:layout_toRightOf="@+id/iv_music"
+            android:id="@+id/tv_music_name"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="评分8.9"
+            android:layout_below="@+id/tv_music_name"
+            android:layout_toRightOf="@+id/iv_music"
+            android:id="@+id/tv_music_grade"
+            android:textColor="@color/text_gray_6"
+            android:textSize="12sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="wf"
+            android:layout_below="@+id/tv_music_grade"
+            android:layout_toRightOf="@+id/iv_music"
+            android:id="@+id/tv_music_art"
+            android:textColor="@color/text_gray_6"
+            android:textSize="12sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/divider_gray_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"/>
+
+</LinearLayout>

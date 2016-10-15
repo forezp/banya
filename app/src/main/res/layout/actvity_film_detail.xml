@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/iv_film"
+                    android:layout_width="120dp"
+                    android:layout_height="171dp" />
+
+
+                <LinearLayout
+                    android:paddingLeft="20dp"
+                    android:layout_toRightOf="@+id/iv_film"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:text=""
+                            android:textColor="@color/red_base"
+                            android:textSize="13sp"
+                            android:id="@+id/tv_rating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:text=""
+                            android:textColor="@color/text_gray_4"
+                            android:textSize="13sp"
+                            android:maxLines="1"
+                            android:id="@+id/tv_rating_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <TextView
+                        android:text=""
+                        android:layout_marginTop="5dp"
+                        android:textSize="13sp"
+                        android:textColor="@color/text_gray_4"
+                        android:id="@+id/tv_date_and_film_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text=""
+                        android:layout_marginTop="5dp"
+                        android:textSize="13sp"
+                        android:textColor="@color/text_gray_4"
+                        android:id="@+id/tv_film_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text=""
+                        android:layout_marginTop="5dp"
+                        android:textSize="13sp"
+                        android:textColor="@color/text_gray_4"
+                        android:id="@+id/tv_film_country"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text=""
+                        android:layout_marginTop="5dp"
+                        android:textSize="13sp"
+                        android:textColor="@color/text_gray_4"
+                        android:id="@+id/tv_film_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </RelativeLayout>
+            <TextView
+                android:text="简介:"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+                android:background="@drawable/button_bg_light_gray"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text=" "
+                android:background="@color/bg_light_gray"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/tv_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/bg_light_gray"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:id="@+id/recyclerview"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:layout_marginBottom="30dp"
+                android:text="查看更多信息"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:id="@+id/tv_more_info"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/bg_light_gray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
