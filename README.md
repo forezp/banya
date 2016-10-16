@@ -7,7 +7,7 @@
  - 整体采用material design 风格，本人是网易云音乐的粉丝，所以界面模仿了网页云音乐，另外，项目中尽量使用了5.0之后的新控件。
 
  
- - 项目整体采用mvp+rxjava+retrofit 框架，使用glide进行图片展示。
+ - 项目整体采用mvp+rxjava+retrofit 框架，使用glide进行图片展示，用butterknif注解，另外使用了java 8 新特性，拉姆达表达式，安卓原生并不支持，需要导插件，具体见项目。
 
 
  - 并对retrofit进行了缓存配置，很遗憾，豆瓣API在服务端并没有对返回数据进行Cache-Control 设置。
@@ -31,7 +31,7 @@
  
 ### 抽屉界面：
  
- 抽屉界面使用到的icon来自google 的开源icon库，material design icon 地址：[点击进入](https://design.google.com/icons/index.html)看来谷歌为material design 花费了大量大精力，然而，一般的项目组都是ios的设计风格，让android  去开发，非常的不幸。
+ 抽屉界面使用到的icon来自google 的开源icon库，material design icon 地址：[点击进入](https://design.google.com/icons/index.html) ，看来谷歌为material design 花费了大量的精力，然而，一般的项目组都是ios的设计风格，让android去开发，作为一名安卓开发者，感觉到非常的不幸，为什么好的东西不能被产品和设计接受。
 <img src="http://img.blog.csdn.net/20161015220007320" width = "300"  alt="图片名称" align=center /> 
 
 ### 项目中使用了webview 进行展示
@@ -52,7 +52,7 @@
 ### Contatct  Me:
 
  - Email:124746406@qq.com
- - Blog : [csdb blog](http://blog.csdn.net/forezp)
+ - Blog : [csdn blog](http://blog.csdn.net/forezp)
  - GitHub: [Forezp](https://github.com/forezp)
  
 
