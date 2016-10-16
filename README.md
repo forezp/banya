@@ -24,6 +24,7 @@
 
  - 主界面采用material design 设计风格，使用了NavigationView和DrawerLayout的抽屉效果，CoordinatorLayout和viewpager 配合，使用behavior属性，对toolbar的显示和隐藏进行了控制。使用了tablayout和viewpager配合，切换fragment，整体风格类似于网易云音乐。
  - 用到的豆瓣API有热映榜、top250、搜索图书、搜索音乐，等。
+ 
 <img src="http://img.blog.csdn.net/20161015215329740" width = "300"  alt="图片名称" align=center /> <img src="http://img.blog.csdn.net/20161015215510459" width = "300"  alt="图片名称" align=center />
 <img src="http://img.blog.csdn.net/20161015215731147" width = "300"  alt="图片名称" align=center /> <img src="http://img.blog.csdn.net/20161015215921087" width = "300"  alt="图片名称" align=center /> 
  
