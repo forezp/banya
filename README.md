@@ -10,7 +10,7 @@
  - 项目整体采用mvp+rxjava+retrofit 框架，使用glide进行图片展示，用butterknif注解，另外使用了java 8 新特性，拉姆达表达式，安卓原生并不支持，需要导插件，具体见项目。
 
 
- - 并对retrofit进行了缓存配置，很遗憾，豆瓣API在服务端并没有对返回数据进行Cache-Control 设置。
+ - 并对retrofit的okhttpClient进行了缓存配置，很遗憾，豆瓣API在服务端并没有对返回数据进行Cache-Control 设置。
  
  - 后续会采用本地数据库对数据进行缓存，初步定为使用realm。
          
