@@ -77,7 +77,9 @@ public class MusicAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             footerViewHolder.bindItem();
         }else if (holder instanceof MusicViewHolder) {
             MusicViewHolder musicViewHolder = (MusicViewHolder) holder;
-            musicViewHolder.bindItem(list.get(position),position);
+            if(list.size()>0) {
+                musicViewHolder.bindItem(list.get(position), position);
+            }
         }
     }
 
