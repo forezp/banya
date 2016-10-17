@@ -45,6 +45,12 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import de.hdodenhof.circleimageview.CircleImageView;
 
+/**
+ * 项目地址L：https://github.com/forezp/banya
+ * author : 124746406@qq.com
+ * 注意：douban API 有次数限制
+ *
+ */
 public class MainActivity extends BaseActivity implements IgetTop250View{
 
     @BindView(R.id.toolbar)
@@ -72,7 +78,7 @@ public class MainActivity extends BaseActivity implements IgetTop250View{
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
        // applyKitKatTranslucency();
-        StatusBarUtil.setColorForDrawerLayout(MainActivity.this,drawerlayoutHome, ThemeUtils.getThemeColor());
+        StatusBarUtil.setColorNoTranslucentForDrawerLayout(MainActivity.this,drawerlayoutHome, ThemeUtils.getThemeColor());
        // StatusBarUtil.setColor(MainActivity.this, ThemeUtils.getThemeColor());
         initView();
         initViewpagerAndFragment();

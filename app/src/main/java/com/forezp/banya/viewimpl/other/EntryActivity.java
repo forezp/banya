@@ -4,13 +4,13 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.widget.ImageView;
 
 import com.forezp.banya.R;
+import com.forezp.banya.base.BaseActivity;
 import com.forezp.banya.viewimpl.MainActivity;
 
 import java.util.Random;
@@ -27,8 +27,7 @@ import rx.functions.Action1;
  */
 
 
-public class EntryActivity extends Activity
-{
+public class EntryActivity extends BaseActivity {
 
     @BindView(R.id.iv_entry)
     ImageView mSplashImage;
@@ -65,7 +64,7 @@ public class EntryActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entry);
         ButterKnife.bind(this);
-
+        setTranslucentStatus(true);
         Random random = new Random(SystemClock.elapsedRealtime());
         mSplashImage.setImageResource(IMAGES[random.nextInt(IMAGES.length)]);
 
@@ -81,6 +80,11 @@ public class EntryActivity extends Activity
                         startAnim();
                     }
                 });
+    }
+
+    @Override
+    public String setActName() {
+        return null;
     }
 
     private void startAnim()

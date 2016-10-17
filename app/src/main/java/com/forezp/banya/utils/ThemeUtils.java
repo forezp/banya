@@ -15,7 +15,7 @@ import com.forezp.banya.R;
  */
 public class ThemeUtils {
 
-    private static int defalutThemeColor = Color.rgb(76,175,80);
+    private static int defalutThemeColor = Color.rgb(251,91,129);
     private static Context context = MyApp.mContext;
     public static void setThemeColor( int color){
         SharedPreferences.Editor editor = context.getSharedPreferences("ThemeColor",context.MODE_PRIVATE).edit();
