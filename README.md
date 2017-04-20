@@ -55,8 +55,7 @@ app所以的api都来自[豆瓣Api V2（测试版）](https://developers.douban.
  
 ## 联系我:
 
- - Email:124746406@qq.com
- - jianshu: [jianshu](http://www.jianshu.com/users/f2550db5eca3/latest_articles)
+ - Email: miles02@163.com
  - Blog : [csdn blog](http://blog.csdn.net/forezp)
  - GitHub: [Forezp](https://github.com/forezp)
  
